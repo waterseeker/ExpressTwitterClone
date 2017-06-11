@@ -8,12 +8,21 @@
   "author": "Platypi",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
   },
   "devDependencies": {
     "mocha": "^1.21.4",
     "request": "^2.34.0",
     "chai": "^1.9.0"
-  }
+  },
+  "description": "##### Covalence",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvonhagel/FS-SP17-Lab10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gvonhagel/FS-SP17-Lab10/issues"
+  },
+  "homepage": "https://github.com/gvonhagel/FS-SP17-Lab10#readme"
 }

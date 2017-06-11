@@ -1,0 +1,61 @@
+body {
+    background: url("resources/chirper-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#btn:hover {
+    background-color: #90c5e7;
+    width: 15%;
+    margin: 1% 42.5% 2% 42.5%;
+}
+
+#btn {
+    font-size: 20px;
+    border: 2px solid #fffefb;
+    background-color: #014abb;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px black;
+    color: white;
+    width: 10%;
+    margin: 1% 45% 2% 45%;
+    transition: width 1s;
+    min-width: 100px;
+}
+
+.chirp {
+    border: 2px solid #9ac8db;
+    background-color: #014abb; 
+    font-family: 'El Messiri', sans-serif;
+    border-radius: 3px;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-size: 1.75em;
+    min-height: 40px;
+    /*width: 33%;*/
+    margin-top: 10px;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;  
+    opacity: 0.9;
+}
+
+#posts {
+    /*border: 2px solid #9ac8db;
+    min-height: 400px;
+    width: 750px;
+    margin: 10% 25%;
+    opacity: 0.9;*/
+}
+
+#inputChirp {
+    height: 40px;
+    width: 33%;
+    margin: 10% 33% 1% 33%;
+    font-size: 1em;
+    padding-left: 15px;
+}
+
+
